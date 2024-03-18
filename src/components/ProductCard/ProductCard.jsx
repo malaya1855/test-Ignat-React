@@ -3,9 +3,10 @@ import svg from "../../assets/sprite.svg";
 
 export const ProductCard = ({ item }) => {
   const { title, gender, properties, src, price } = item;
+  console.log(src);
   return (
     <div className="productCard">
-      <img href={src} alt={title} className="productImg" />
+      <img src={src} alt={title} className="productImg" />
       <p className="product-title">{title}</p>
       <p className="product-prop">{gender}</p>
       <p className="product-prop">{properties}</p>

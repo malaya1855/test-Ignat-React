@@ -1,7 +1,7 @@
 import { SliderProducts } from "../components/Slider/SliderProducts";
 import { SliderHero } from "../components/Slider/SliderHero";
 import { SliderFeedback } from "../components/Slider/SliderFeedback";
-
+import ctaImg from "../assets/images/strongMan.jpg";
 const HomePage = () => {
   return (
     <div>
@@ -20,11 +20,7 @@ const HomePage = () => {
             </p>
             <a className="cta-button">До каталогу</a>
           </div>
-          <img
-            className="cta-image"
-            src="/assets/images/strongMan.jpg"
-            alt="Strong man"
-          ></img>
+          <img className="cta-image" src={ctaImg} alt="Strong man"></img>
         </section>
         <section className="popular">
           <h3 className="popular-title">Найгарячіші товари</h3>

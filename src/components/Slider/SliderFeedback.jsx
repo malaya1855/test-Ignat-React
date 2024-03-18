@@ -22,7 +22,6 @@ export const SliderFeedback = () => {
     >
       <SplideTrack>
         {feedback.map((item, index) => {
-          console.log(item);
           return (
             <SplideSlide key={index}>
               <FeedbackCard item={item} />

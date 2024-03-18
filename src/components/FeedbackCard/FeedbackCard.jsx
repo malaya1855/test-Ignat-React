@@ -1,11 +1,12 @@
 import PropTypes from "prop-types";
 import svg from "../../assets/sprite.svg";
+import mask from "../../assets/images/mask.jpg";
 
 export const FeedbackCard = ({ item }) => {
   return (
     <div className="feedback-item">
       <div className="feedback-highlight">
-        <img className="feedback-photo" src="/assets/images/mask.jpg" />
+        <img className="feedback-photo" src={mask} />
         <div>
           <div>
             {[1, 2, 3, 4, 5].map((value) => (

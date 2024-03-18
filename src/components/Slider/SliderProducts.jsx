@@ -23,7 +23,6 @@ export const SliderProducts = () => {
     >
       <SplideTrack>
         {products.map((item, index) => {
-          console.log(item);
           return (
             <SplideSlide key={index}>
               <ProductCard item={item} />
@@ -35,12 +34,12 @@ export const SliderProducts = () => {
       <div className="splide__arrows">
         <button className="splide__arrow splide__arrow--next">
           <svg className="arrow">
-            <use href={svg + "#icon-arrow-right"}></use>
+            <use href={svg + "#icon-arrow-left"}></use>
           </svg>
         </button>
         <button className="splide__arrow splide__arrow--prev">
           <svg className="arrow">
-            <use href={svg + "#icon-arrow-left"}></use>
+            <use href={svg + "#icon-arrow-right"}></use>
           </svg>
         </button>
       </div>

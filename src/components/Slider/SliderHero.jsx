@@ -2,6 +2,7 @@ import { Splide, SplideSlide, SplideTrack } from "@splidejs/react-splide";
 import "@splidejs/splide/dist/css/splide.min.css";
 import "@splidejs/splide/dist/css/themes/splide-default.min.css";
 import svg from "../../assets/sprite.svg";
+import hero from "../../assets/images/hero.jpg";
 
 export const SliderHero = () => {
   return (
@@ -15,7 +16,7 @@ export const SliderHero = () => {
     >
       <SplideTrack>
         <SplideSlide>
-          <img src="/assets/images/hero.jpg" alt="Sports" />
+          <img src={hero} alt="Sports" />
         </SplideSlide>
       </SplideTrack>
       <div className="splide__arrows">
