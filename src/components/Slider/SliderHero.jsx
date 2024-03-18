@@ -15,10 +15,7 @@ export const SliderHero = () => {
     >
       <SplideTrack>
         <SplideSlide>
-          <img
-            src="./test-Ignat-React/src/assets/images/hero.jpg"
-            alt="Sports"
-          />
+          <img src="/assets/images/hero.jpg" alt="Sports" />
         </SplideSlide>
       </SplideTrack>
       <div className="splide__arrows">

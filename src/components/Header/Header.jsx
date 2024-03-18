@@ -1,5 +1,5 @@
-import { Navigation } from "./reUseComponents/Navigation";
-import svg from "../assets/sprite.svg";
+import { Navigation } from "../reUseComponents/Navigation";
+import svg from "../../assets/sprite.svg";
 export const Header = () => {
   return (
     <div>

@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { Navigation } from "./reUseComponents/Navigation";
+import { Navigation } from "../reUseComponents/Navigation";
 
 export const Footer = () => {
   return (

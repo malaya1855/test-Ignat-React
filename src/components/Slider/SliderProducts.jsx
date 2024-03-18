@@ -4,7 +4,7 @@ import products from "../../data/products.json";
 import "@splidejs/splide/dist/css/splide.min.css";
 import "@splidejs/splide/dist/css/themes/splide-default.min.css";
 import svg from "../../assets/sprite.svg";
-import { ProductCard } from "../reUseComponents/ProductCard";
+import { ProductCard } from "../ProductCard/ProductCard";
 
 export const SliderProducts = () => {
   return (

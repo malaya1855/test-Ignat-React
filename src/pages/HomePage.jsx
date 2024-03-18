@@ -22,7 +22,7 @@ const HomePage = () => {
           </div>
           <img
             className="cta-image"
-            src="./test-Ignat-React/src/assets/images/strongMan.jpg"
+            src="/assets/images/strongMan.jpg"
             alt="Strong man"
           ></img>
         </section>

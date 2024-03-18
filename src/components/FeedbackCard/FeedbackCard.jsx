@@ -5,10 +5,7 @@ export const FeedbackCard = ({ item }) => {
   return (
     <div className="feedback-item">
       <div className="feedback-highlight">
-        <img
-          className="feedback-photo"
-          src="./test/Ignat-React/src/assets/images/mask.jpg"
-        />
+        <img className="feedback-photo" src="/assets/images/mask.jpg" />
         <div>
           <div>
             {[1, 2, 3, 4, 5].map((value) => (

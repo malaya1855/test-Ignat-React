@@ -3,7 +3,7 @@ import feedback from "../../data/feedback.json";
 import "@splidejs/splide/dist/css/splide.min.css";
 import "@splidejs/splide/dist/css/themes/splide-default.min.css";
 import svg from "../../assets/sprite.svg";
-import { FeedbackCard } from "../reUseComponents/FeedbackCard";
+import { FeedbackCard } from "../FeedbackCard/FeedbackCard";
 
 export const SliderFeedback = () => {
   return (
