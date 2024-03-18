@@ -1,0 +1,22 @@
+[
+  {
+    "title": "Новинки",
+    "src": "/"
+  },
+  {
+    "title": "Чоловіки",
+    "src": "/men"
+  },
+  {
+    "title": "Жінки",
+    "src": "/women"
+  },
+  {
+    "title": "Аксесуари",
+    "src": "/accessories"
+  },
+  {
+    "title": "Акції",
+    "src": "/promotions"
+  }
+]
