@@ -1,33 +1,12 @@
-import { Splide, SplideSlide } from "@splidejs/react-splide";
-// import Slider from "react-slick";
-import "@splidejs/splide/dist/css/splide.min.css";
-import "@splidejs/splide/dist/css/themes/splide-default.min.css";
-import { Slider } from "../components/reUseComponents/Slider";
+import { SliderProducts } from "../components/Slider/SliderProducts";
+import { SliderHero } from "../components/Slider/SliderHero";
+import { SliderFeedback } from "../components/Slider/SliderFeedback";
 
 const HomePage = () => {
   return (
     <div>
       <section className="hero">
-        <Splide aria-label="">
-          <SplideSlide>
-            <img
-              src="./test-Ignat-React/src/assets/images/hero.jpg"
-              alt="Sports"
-            />
-          </SplideSlide>
-          <SplideSlide>
-            <img
-              src="./test-Ignat-React/src/assets/images/hero.jpg"
-              alt="Sports"
-            />
-          </SplideSlide>
-          <SplideSlide>
-            <img
-              src="./test-Ignat-React/src/assets/images/hero.jpg"
-              alt="Sports"
-            />
-          </SplideSlide>
-        </Splide>
+        <SliderHero />
       </section>
       <div className="container">
         <section className="cta">
@@ -49,7 +28,8 @@ const HomePage = () => {
         </section>
         <section className="popular">
           <h3 className="popular-title">Найгарячіші товари</h3>
-          <Slider />
+          <p className="pagination">01 / 03</p>
+          <SliderProducts />
         </section>
         <section className="promotions">
           <h2 className="promotions-title">Спіймай всі акції!</h2>
@@ -64,6 +44,8 @@ const HomePage = () => {
         </section>
         <section className="feedback">
           <h3>Відгуги наших клієнтів</h3>
+          <p className="pagination">01 / 03</p>
+          <SliderFeedback />
         </section>
       </div>
     </div>

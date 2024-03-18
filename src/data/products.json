@@ -11,55 +11,13 @@
     "gender": "Для жінок",
     "properties": "6 кольорів",
     "price": "1100 грн.",
-    "src": "./test-Ignat-React/src/assets/products/photo2.jpg"
+    "src": "../assets/products/photo2.jpg"
   },
   {
     "title": "Ланцюжок для бодібілдерів",
     "gender": "Аксесуари",
     "properties": "30 кг.",
     "price": "2000 грн.",
-    "src": "./test-Ignat-React/src/assets/products/photo3.jpg"
-  },
-  {
-    "title": "Термобілизна для бодібілдерів",
-    "gender": "Для чоловіків",
-    "properties": "2 кольори",
-    "price": "4000 грн.",
-    "src": "./test-Ignat-React/src/assets/products/photo1.jpg"
-  },
-  {
-    "title": "Майка для бодібілдерів",
-    "gender": "Для жінок",
-    "properties": "6 кольорів",
-    "price": "1100 грн.",
-    "src": "./test-Ignat-React/src/assets/products/photo2.jpg"
-  },
-  {
-    "title": "Ланцюжок для бодібілдерів",
-    "gender": "Аксесуари",
-    "properties": "30 кг.",
-    "price": "2000 грн.",
-    "src": "./test-Ignat-React/src/assets/products/photo3.jpg"
-  },
-  {
-    "title": "Термобілизна для бодібілдерів",
-    "gender": "Для чоловіків",
-    "properties": "2 кольори",
-    "price": "4000 грн.",
-    "src": "./test-Ignat-React/src/assets/products/photo1.jpg"
-  },
-  {
-    "title": "Майка для бодібілдерів",
-    "gender": "Для жінок",
-    "properties": "6 кольорів",
-    "price": "1100 грн.",
-    "src": "./test-Ignat-React/src/assets/products/photo2.jpg"
-  },
-  {
-    "title": "Ланцюжок для бодібілдерів",
-    "gender": "Аксесуари",
-    "properties": "30 кг.",
-    "price": "2000 грн.",
-    "src": "./test-Ignat-React/src/assets/products/photo3.jpg"
+    "src": "../assets/products/photo3.jpg"
   }
 ]

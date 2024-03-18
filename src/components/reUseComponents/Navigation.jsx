@@ -4,15 +4,16 @@ export const Navigation = () => {
   return (
     <ul className="navigation-list">
       {links.map((link, i) => (
-        <NavLink
-          key={`${link.title}${i}`}
-          to={link.src}
-          className={({ isActive }) => {
-            return "navigation" + (!isActive ? "" : " active");
-          }}
-        >
-          {link.title}
-        </NavLink>
+        <li key={`${link.title}${i}`}>
+          <NavLink
+            to={link.src}
+            className={({ isActive }) => {
+              return "navigation" + (!isActive ? "" : " active");
+            }}
+          >
+            {link.title}
+          </NavLink>
+        </li>
       ))}
     </ul>
   );
