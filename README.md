@@ -19,10 +19,15 @@ test-Ignat-React/
 ├── src/
 │   ├── assets/
 │   │   ├── fonts/
-│   │   │   ├── fonts.scss
+│   │   │   └── fonts.scss
 │   │   ├── images/
-│   │   │   ├── hero.jpg
-│   │   ├── sprite.svg
+│   │   │   └── hero.jpg
+│   │   └── sprite.svg
+│   │
+│   ├── data/
+│   │   ├── products.json
+│   │   ├── feedback.json
+│   │   └── links.json
 │   │
 │   ├── components/
 │   │   ├── Header/
