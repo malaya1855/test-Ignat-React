@@ -87,7 +87,7 @@ npm run dev
 4. Відкрийте в браузері http://localhost:3000.
 
 ## Макет застосунку
-Сторінка "Новинки" реалізована згідно макету [Figma] (<https://www.figma.com/file/pWcOlcMkTvSu08Ov7DKhhP/Interne-technical-task?type=design&node-id=0%3A1&mode=design&t=Zyn6z6FQ1l0XDDlY-1>)
+Сторінка "Новинки" реалізована згідно макету [Figma](<https://www.figma.com/file/pWcOlcMkTvSu08Ov7DKhhP/Interne-technical-task?type=design&node-id=0%3A1&mode=design&t=Zyn6z6FQ1l0XDDlY-1>)
 
 ## Контакти розробника
 Катерина Мала  - malaya1855@gmail.com - [GitHubPages](<https://github.com/malaya1855>)
